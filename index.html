@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LuarNegeri Gallery</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        /* Header styling */
+        header {
+            background-color: #ff9898;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+
+        /* Grid container */
+        .gallery-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+            grid-gap: 20px;
+            padding: 20px;
+            justify-items: center;
+        }
+
+        /* Grid item */
+        .gallery-item {
+            background-color: #fff6f6;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px #f78d8d1a;
+            text-align: center;
+            padding: 20px;
+            width: 100%;
+        }
+
+        .gallery-item img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
+
+        .gallery-item p {
+            margin-top: 10px;
+            font-weight: bold;
+        }
+
+        /* Responsive layout */
+        @media screen and (max-width: 768px) {
+            .gallery-container {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+
+        @media screen and (max-width: 480px) {
+            .gallery-container {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        /* Footer styling */
+        footer {
+            background-color: #ff8080;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>LuarNegeri Gallery</h1>
+    </header>
+    <main class="gallery-container">
+        <div class="gallery-item">
+            <img src="kota thailand.png" alt="kota Thailand">
+            <p>Thailand</p>
+        </div>
+        <div class="gallery-item">
+            <img src="kotachina.png" alt="Kota China">
+            <p>China</p>
+        </div>
+        <div class="gallery-item">
+            <img src="KotaHongkong.png" alt="Kota Hongkong">
+            <p>Hongkong</p>
+        </div>
+        <div class="gallery-item">
+            <img src="kotajepang.png" alt="Kota Jepang">
+            <p>Jepang</p>
+        </div>
+        <div class="gallery-item">
+            <img src="Kanada.png" alt="Kota Kanada">
+            <p>Kanada</p>
+        </div>
+        <div class="gallery-item">
+            <img src="Singapura.png" alt="Kota Singapura">
+            <p>Singapura</p>
+        </div>
+        <div class="gallery-item">
+            <img src="korea-selatan.png" alt="Kota korea-selatan">
+            <p>korea-selatan</p>
+        </div>
+        <div class="gallery-item">
+            <img src="AMERIKA1.PNG" alt="Kota Amerika ">
+            <p>Amerika</p>
+        </div>
+        <div class="gallery-item">
+            <img src="kotaAustralia.png" alt="Kota Australia ">
+            <p>Australia</p>
+        </div>
+        <div class="gallery-item">
+            <img src="KotaRusia.png" alt="Kota Rusia ">
+            <p>Rusia</p>
+        </div>
+        <div class="gallery-item">
+            <img src="kotadubai.png" alt="Kota Dubai ">
+            <p>Dubai</p>
+        </div>
+        <div class="gallery-item">
+            <img src="Brazil.png" alt="Kota Brazil">
+            <p>Brazil</p>
+        </div>
+        <div class="gallery-item">
+            <img src="KotaPeracis.png" alt="Kota Paris ">
+            <p>Paris</p>
+        </div>
+        <div class="gallery-item">
+            <img src="Italia.png" alt="Kota Italia ">
+            <p>Italia</p>
+        </div>
+        <div class="gallery-item">
+            <img src="Kota Swiss.png" alt="Kota Swiss">
+            <p>Swiss</p>
+        </div>
+        <div class="gallery-item">
+            <img src="ArabSaudi.png" alt="Kota ArabSaudi ">
+            <p>ArabSaudi</p>
+        </div>
+        <div class="gallery-item">
+            <img src="Kotaindia.png" alt="Kota India ">
+            <p>India</p>
+        </div>
+        <div class="gallery-item">
+            <img src="KotaBrunei.png" alt="Kota Brunei ">
+            <p>Brunei</p>
+        </div>
+    </main>
+
+    <footer>
+    </footer>
+</body>
+
+</html>
